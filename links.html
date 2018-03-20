@@ -1,0 +1,400 @@
+<html>
+<head>
+<title>Links</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script >
+	function video()
+	{
+		document.getElementById("cs").innerHTML="";
+		var cs=['https://www.youtube.com/user/thenewboston','https://www.codecademy.com/',
+		'https://www.w3schools.com/','https://www.tutorialspoint.com/index.htm'];
+		 
+		var csd=['New Boston:A palce where you can you learn all programming languages','Code Academy:online step by step guide from beginner to advance'
+		,'W3 Schools:Best Web Tech Site','Tutorials point:A superb guide of all subjects'];
+		
+		for(var i=0;i<cs.length;++i)
+		{
+		var link = document.createElement("a");
+		var t = document.createTextNode(csd[i]);
+		link.appendChild(t);
+		link.setAttribute("href",cs[i]);
+		document.getElementById("cs").appendChild(link);
+		
+		link = document.createElement("P");
+		t = document.createTextNode("");
+		link.appendChild(t);
+		document.getElementById("cs").appendChild(link);
+		}
+		
+		document.getElementById("mech").innerHTML="";
+		var mc=['https://mechanicalc.com/','https://www.youtube.com/user/MITMechE',
+		'https://www.youtube.com/channel/UCltVEZ6GecWntoZ19FvaWhQ','https://www.youtube.com/channel/UCLXJdTVFz-8Q-zBYuPvBifA'];
+		 
+		var mcd=['Mechanic Calc:Perform all your basic Calculations','MIT MECHANICAL:Explore Robotics and Innovation'
+		,'Ekeeda:Some of the best video lectures','My Mechanical Engineering:Paper solutions with proofs'];
+		
+		for(var i=0;i<cs.length;++i)
+		{
+		var link = document.createElement("a");
+		var t = document.createTextNode(mcd[i]);
+		link.appendChild(t);
+		link.setAttribute("href",mc[i]);
+		document.getElementById("mech").appendChild(link);
+		
+		link = document.createElement("P");
+		t = document.createTextNode("");
+		link.appendChild(t);
+		document.getElementById("mech").appendChild(link);
+		}
+		
+		document.getElementById("civil").innerHTML="";
+		var cv=['https://www.youtube.com/user/thecivilenggsite','https://www.youtube.com/channel/UCkF47djMWMMagcUCOm9fQ3w',
+		'http://freevideolectures.com/Subject/Civil-Engineering','https://www.youtube.com/channel/UCu-_zmOmK-fWLcVPmDgvbrg'];
+		 
+		var cvd=['Civil Engineering:Picturised Study','Basics:Basic Study'
+		,'Free Video Lectures NPTEL:Enjoy the IIT way of learning','Tutorials:Best Explanation Ever!!'];
+		
+		for(var i=0;i<cs.length;++i)
+		{
+		var link = document.createElement("a");
+		var t = document.createTextNode(cvd[i]);
+		link.appendChild(t);
+		link.setAttribute("href",cv[i]);
+		document.getElementById("civil").appendChild(link);
+		
+		link = document.createElement("P");
+		t = document.createTextNode("");
+		link.appendChild(t);
+		document.getElementById("civil").appendChild(link);
+		}
+		
+		document.getElementById("ece").innerHTML="";
+		var ec=['https://www.youtube.com/user/nesoacademy','https://www.youtube.com/channel/UCltVEZ6GecWntoZ19FvaWhQ',
+		'https://www.electronics-tutorials.ws/','https://www.khanacademy.org/science/electrical-engineering'];
+		 
+		var ecd=['Neso Academy:Nothing better than this can be expected','Ekeeda:Some of the best video lectures'
+		,'Electronics Tutorials:All in one place','Khan Academy:Learn like a Nawab!!'];
+		
+		for(var i=0;i<cs.length;++i)
+		{
+		var link = document.createElement("a");
+		var t = document.createTextNode(ecd[i]);
+		link.appendChild(t);
+		link.setAttribute("href",ec[i]);
+		document.getElementById("ece").appendChild(link);
+		
+		link = document.createElement("P");
+		t = document.createTextNode("");
+		link.appendChild(t);
+		document.getElementById("ece").appendChild(link);
+		}
+	}
+	function coding()
+	{
+		document.getElementById("mech").innerHTML="";
+		document.getElementById("civil").innerHTML="";
+		document.getElementById("ece").innerHTML="";
+		document.getElementById("cs").innerHTML="";
+		var cs=['https://www.hackerearth.com/challenges/','https://www.codechef.com/','https://www.geeksforgeeks.org/','https://github.com/',
+		'https://www.stopstalk.com/','https://www.hackerrank.com/','https://www.indiabix.com/'];
+		 
+		var csd=['Hackerearth','CodeChef','Geeks for Geeks','Github','StopStalk'
+		,'Hackerrank','IndiaBix'];
+		
+		for(var i=0;i<cs.length;++i)
+		{
+		var link = document.createElement("a");
+		var t = document.createTextNode(csd[i]);
+		link.appendChild(t);
+		link.setAttribute("href",cs[i]);
+		document.getElementById("cs").appendChild(link);
+		
+		link = document.createElement("P");
+		t = document.createTextNode("");
+		link.appendChild(t);
+		document.getElementById("cs").appendChild(link);
+		}
+	}
+	function books()
+	{
+		document.getElementById("cs").innerHTML="";
+		document.getElementById("mech").innerHTML="";
+		document.getElementById("civil").innerHTML="";
+		document.getElementById("ece").innerHTML="";
+		var cs=['https://www.free-ebooks.net/category/computer-sciences-textbooks','http://www.faadooengineers.com/forums/71-Computer-Science-Engineering-Ebooks-Download-Computer-Science-Engineering-Notes',
+		'https://bookboon.com/en/it-programming-ebooks','http://www.freetechbooks.com/'];
+		 
+		var csd=['Free E-Books available','Fadoo Way of Learning through Boooks','Book Boon','Free Tech Books'];
+		
+		for(var i=0;i<cs.length;++i)
+		{
+		var link = document.createElement("a");
+		var t = document.createTextNode(csd[i]);
+		link.appendChild(t);
+		link.setAttribute("href",cs[i]);
+		document.getElementById("cs").appendChild(link);
+		
+		link = document.createElement("P");
+		t = document.createTextNode("");
+		link.appendChild(t);
+		document.getElementById("cs").appendChild(link);
+		}
+		
+		var mc=['https://bookboon.com/en/mechanics-ebooks','https://www.eduinformer.com/engineering-books-reviews-ebook/',
+		'https://engineeringstudymaterial.net/','http://www.freetechbooks.com/'];
+		 
+		var mcd=['Book Boon','Enginners E-Books','Enginners Study Material','Free Tech Books'];
+		
+		for(var i=0;i<mc.length;++i)
+		{
+		var link = document.createElement("a");
+		var t = document.createTextNode(mcd[i]);
+		link.appendChild(t);
+		link.setAttribute("href",mc[i]);
+		document.getElementById("mech").appendChild(link);
+		
+		link = document.createElement("P");
+		t = document.createTextNode("");
+		link.appendChild(t);
+		document.getElementById("mech").appendChild(link);
+		}
+		
+		var cv=['https://bookboon.com/en/mechanics-ebooks','https://www.eduinformer.com/engineering-books-reviews-ebook/',
+		'https://engineeringstudymaterial.net/','http://www.freetechbooks.com/','https://www.aboutcivil.org/new/ebooks.html','https://www.civilax.com/e-books/'];
+		 
+		var cvd=['Book Boon','Enginners E-Books','Enginners Study Material','Free Tech Books','Civil Hub oF learning','Join The Civil Way of Learning'];
+		
+		for(var i=0;i<cv.length;++i)
+		{
+		var link = document.createElement("a");
+		var t = document.createTextNode(cvd[i]);
+		link.appendChild(t);
+		link.setAttribute("href",cv[i]);
+		document.getElementById("civil").appendChild(link);
+		
+		link = document.createElement("P");
+		t = document.createTextNode("");
+		link.appendChild(t);
+		document.getElementById("civil").appendChild(link);
+		}
+		
+		var ec=['https://bookboon.com/en/mechanics-ebooks','https://www.eduinformer.com/engineering-books-reviews-ebook/',
+		'https://engineeringstudymaterial.net/','http://www.freetechbooks.com/','http://www.engineering108.com/pages/Electrical_engineering/electrical_ebooks_free_download.html',
+		'https://www.pdfdrive.net/basic-electrical-engineering-books.html'];
+		 
+		var ecd=['Book Boon','Enginners E-Books','Enginners Study Material','Free Tech Books','Shocking Way of Innovation',
+		'Pdf Hub Of Electricians'];
+		
+		for(var i=0;i<ec.length;++i)
+		{
+		var link = document.createElement("a");
+		var t = document.createTextNode(ecd[i]);
+		link.appendChild(t);
+		link.setAttribute("href",ec[i]);
+		document.getElementById("ece").appendChild(link);
+		
+		link = document.createElement("P");
+		t = document.createTextNode("");
+		link.appendChild(t);
+		document.getElementById("ece").appendChild(link);
+		}
+	}
+	function news()
+	{
+		document.getElementById("cs").innerHTML="";
+		document.getElementById("mech").innerHTML="";
+		document.getElementById("civil").innerHTML="";
+		document.getElementById("ece").innerHTML="";
+		var cs=['https://www.gadgetsnow.com/tech-news','https://www.theverge.com/tech',
+		'https://www.technewsworld.com/','http://www.dnaindia.com/topic/mechanical-engineering'];
+		 
+		var csd=['Gadgets Now','The Verge:The Best Newspaper of Engineers','TechNewsWorld:Get Updated with World Tech','DnaIndia:Indian Tech News'];
+		
+		for(var i=0;i<cs.length;++i)
+		{
+		var link = document.createElement("a");
+		var t = document.createTextNode(csd[i]);
+		link.appendChild(t);
+		link.setAttribute("href",cs[i]);
+		document.getElementById("cs").appendChild(link);
+		
+		link = document.createElement("P");
+		t = document.createTextNode("");
+		link.appendChild(t);
+		document.getElementById("cs").appendChild(link);
+		}
+	}
+	</script>
+</head>
+<style>
+body {
+      position: relative; 
+  }
+.navbar {
+      margin-bottom: 0px;
+	  border-radius: 0;
+	  background: linear-gradient(black, #2a2727);
+  }
+.affix + .container-fluid {
+      padding-top: 70px;
+  }
+  
+  #lowerbody {background-color: #2a2727; }
+  
+  li:hover { background-color: orange; color:white;
+  }
+  a:hover{background-color:orange; font-size: 20px;color:#2a2727;text-decoration:none;}
+  a{color:#eee;}
+   #searchsubform { padding-right: 90px; padding-left: 50px;}
+   
+  form { padding: 4px; }
+  #articles, #events {  padding: 0px; margin:0px;
+				background-color: #212727 }
+  
+  .note { background: linear-gradient(rgb(42,101,247), #2a2727);
+			margin-left: 8px; padding-right: 8px; 
+			border-radius: 8px;
+			width: 100%; height: 35px;  }
+.uploads { background: linear-gradient(red, maroon);
+			margin-right: 0; padding-left: 10; 
+			border-radius: 8px;
+			color: white;
+			font-weight: bold;
+			font-size: 1.2em;
+			width: 100%; height: 35px;  }
+.news { background: linear-gradient(black, #2a2727); height: 30px;
+			width: 100%; }
+</style
+<body>
+<div class="container-fluid" style="background: linear-gradient(black, #2a2727); color:#fff;height:100px;">
+  <h1>UniversityNetwork</h1>
+ </div>
+ 
+<nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+<div class="container-fluid">
+
+<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>                        
+			</button>
+<a class="navbar-brand" href="#">UniversityNetwork</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav">
+<li><a href="public.html">Home</a></li>
+<li><a href="#">About</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="javascript:video();" class="btn btn-lg"><span class="glyphicon glyphicon-film"></span>&nbsp;Video Lectures </a></li>
+<li><a href="javascript:books();" class="btn btn-lg"><span class="glyphicon glyphicon-book"></span>&nbsp;E-Books</a></li>
+<li><a href="javascript:news();" class="btn btn-lg"><span class="glyphicon glyphicon-education"></span>&nbsp;Tech News</a></li>
+<li><a href="javascript:coding();" class="btn btn-lg"><span class="glyphicon glyphicon-sunglasses"></span>&nbsp;Master Coding</a></li>
+</ul>
+</div>
+
+</nav>
+
+<div class="row" id="lowerbody" style="color:white;">
+<header class="news"></header>
+<div id="desc" style="padding-left:25px;">
+
+<div class="row">
+
+<div class="col-sm-3">
+<header class="news" style="height:70px;">
+<div class="media">
+<div class="media-left">
+<img src="cs.png" class="media-object" style="width:60px;">
+</div>
+<div class="media-body">
+&nbsp;COMPUTER SCIENCE AND IT
+</div>
+</div>
+</header>
+<br>
+<div id="cs">
+</div>
+</div>
+
+<div class="col-sm-3">
+<header class="news" style="height:70px;">
+<div class="media">
+<div class="media-left">
+<img src="mech.jpg" class="media-object" style="width:60px;">
+</div>
+<div class="media-body">
+&nbsp;MECHANICAL
+</div>
+</div>
+</header>
+<br>
+<div id="mech">
+</div>
+</div>
+
+<div class="col-sm-3">
+<header class="news" style="height:70px;">
+<div class="media">
+<div class="media-left">
+<img src="civil.png" class="media-object" style="width:60px;">
+</div>
+<div class="media-body">
+&nbsp;CIVIL
+</div>
+</div>
+<header>
+<br><br>
+<div id="civil">
+</div>
+</div>
+
+<div class="col-sm-3">
+<header class="news" style="height:70px;">
+<div class="media">
+<div class="media-left">
+<img src="elec.jpg" class="media-object" style="width:60px;">
+</div>
+<div class="media-body">
+&nbsp;ELECTRICAL & ELECTRONICS
+</div>
+</div>
+</header>
+<br>
+<div id="ece">
+</div>
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+</div>
+</div>
+
+
+<div class="row" style="color:white;">
+<header class="news"></header>
+<div class="form-group input-group">
+<form class="navbar-form navbar-right" role="search" id="searchsubform" >
+<div class="media">
+<div class="media-left">
+<img src="comment.png" class="media-object" style="width:60px;">
+</div>
+<div class="media-body">
+<textarea name="comments" class="form-control input-sm" placeholder="Enter your comment" rows="3" cols="100" style="margin-left:20px;" ></textarea>&nbsp;&nbsp;
+<button class="btn btn-primary" type="button" onclick="ïnsert1();">
+CONTACT US
+</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+
+</body>
+</html>
